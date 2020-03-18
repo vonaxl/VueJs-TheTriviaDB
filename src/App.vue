@@ -15,18 +15,22 @@
         <button @click="nextTest">Next Trivia</button>
       </div>
     </div>
+
+    <Footer />
   </div>
 </template>
 
 <script>
 // import nav from "./components/Nav.vue";
 import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 // import Trivias from "./components/Trivias";
 import axios from "axios";
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    Footer
     // Trivias
   },
   data() {
