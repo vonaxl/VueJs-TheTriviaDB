@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/VueJs-TheTriviaDB/"
+  publicPath: "/VueJs-TheTriviaDB/dist/"
 };
